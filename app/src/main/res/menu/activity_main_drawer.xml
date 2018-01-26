@@ -23,10 +23,10 @@
             android:id="@+id/nav_events"
             android:icon="@drawable/ic_local_activity_black_24dp"
             android:title="Events" />
-        <!--<item-->
-            <!--android:id="@+id/nav_pointer"-->
-            <!--android:icon="@drawable/ic_assessment_black_24dp"-->
-            <!--android:title="Pointer Predictor" />-->
+        <item
+            android:id="@+id/nav_pointer"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="Pointer Calculator" />
         <item
             android:id="@+id/nav_credits"
             android:icon="@drawable/ic_code_black_24dp"
