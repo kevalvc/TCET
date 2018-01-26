@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="false"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="2.42"
+                android:gravity="center_vertical"
+                android:text="Greetings!"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="\nThe management’s commitment to excellence and relevance in technical education is reflected in the marvelous infrastructure that is comparable to the finest institution of its type in the country. The imposing five-storied building, housing state-of-the-art computer laboratories, spacious classrooms, well equipped laboratories, workshops, computer centre with server room, a well-stocked library, wide and well lit clean corridors and a large canteen, conference hall, seminar halls has set new standards in providing facilities of international level.\n"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="\nThe management’s commitment to excellence and relevance in technical education is reflected in the marvelous infrastructure that is comparable to the finest institution of its type in the country. The imposing five-storied building, housing state-of-the-art computer laboratories, spacious classrooms, well equipped laboratories, workshops, computer centre with server room, a well-stocked library, wide and well lit clean corridors and a large canteen, conference hall, seminar halls has set new standards in providing facilities of international level.\n" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:text="\nApplication of modern technology in teaching- learning process and effective day-to-day governance of the college makes TCET unique. Key initiatives like teacherguardian scheme, book bank scheme, induction of resource books, yearly organisation of events (like Multicon-W, technical and cultural festivals etc.) make TCET an institute with a difference. Thus, within just 15 years of its existence, TCET has carved out a niche for itself as one of the leading engineering Colleges under Thakur Education Group and University of Mumbai.\n\n\n" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="196dp"
+                android:layout_gravity="center_vertical|center_horizontal|center"
+                android:layout_weight="0.08"
+                android:src="@drawable/googlemaps" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:text="\nThakur College Of Engineering And Technology.\nA-Block, Thakur Educational Campus, Shyamnarayan Thakur Marg, \nThakur Village, Kandivali(E). Mumbai - 400101\n\n\n" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

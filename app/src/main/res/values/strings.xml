@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TCET</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ncet_is_one_of_the_premier_institutions_under_the_umbrella_of_thakur_education_group_teg_the_institute_s_aim_is_to_nurture_young_talents_in_the_field_of_engineering_and_technology_as_per_global_needs_therefore_apart_from_teaching_the_university_prescribed_syllabus_tcet_also_works_on_meeting_professional_practices_and_industry_requirements_by_conducting_workshops_training_and_value_added_courses_on_technical_and_life_skills">CET is one of the premier institutions under the umbrella of Thakur Education Group (TEG). The institute’s aim is to nurture young talents in the field of engineering and technology as per global needs. Therefore, apart from teaching the university prescribed syllabus, TCET also works on meeting professional practices and industry requirements by conducting workshops, training and value added courses on technical and life skills.</string>
+    <string name="application_of_modern_technology_in_teaching_learning_process_and_effective_day_to_day_governance_of_the_college_makes_tcet_unique_key_initiatives_like_teacherguardian_scheme_book_bank_scheme_induction_of_resource_books_yearly_organisation_of_events_like_multicon_w_technical_and_cultural_festivals_etc_make_tcet_an_institute_with_a_difference_thus_within_just_15_years_of_its_existence_tcet_has_carved_out_a_niche_for_itself_as_one_of_the_leading_engineering_colleges_under_thakur_education_group_and_university_of_mumbai">Application of modern technology in teaching- learning process and effective day-to-day governance of the college makes TCET unique. Key initiatives like teacherguardian scheme, book bank scheme, induction of resource books, yearly organisation of events (like Multicon-W, technical and cultural festivals etc.) make TCET an institute with a difference. Thus, within just 15 years of its existence, TCET has carved out a niche for itself as one of the leading engineering Colleges under Thakur Education Group and University of Mumbai.</string>
+
+    <string-array name="Division">
+        <item>Div A</item>
+        <item>Div B</item>
+    </string-array>
+
+</resources>

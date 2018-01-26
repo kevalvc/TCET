@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <!--<item-->
+            <!--android:id="@+id/nav_notices"-->
+            <!--android:icon="@drawable/ic_announcement_black_24dp"-->
+            <!--android:title="Notices" />-->
+        <item
+            android:id="@+id/nav_department"
+            android:icon="@drawable/ic_group_work_black_24dp"
+            android:title="Departments" />
+        <item
+            android:id="@+id/nav_academics"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Academics" />
+        <item
+            android:id="@+id/nav_facilities"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="Facilities" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_local_activity_black_24dp"
+            android:title="Events" />
+        <!--<item-->
+            <!--android:id="@+id/nav_pointer"-->
+            <!--android:icon="@drawable/ic_assessment_black_24dp"-->
+            <!--android:title="Pointer Predictor" />-->
+        <item
+            android:id="@+id/nav_credits"
+            android:icon="@drawable/ic_code_black_24dp"
+            android:title="Credits" />
+
+
+    </group>
+
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_rateus"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Rate Us" />
+
+        </menu>
+    </item>
+
+</menu>

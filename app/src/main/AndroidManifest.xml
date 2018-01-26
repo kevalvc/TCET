@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.keval.tcet">
+
+    <supports-screens
+
+        android:smallScreens="true"
+
+        android:normalScreens="true"
+
+        android:largeScreens="true"
+
+        android:xlargeScreens="true"
+
+        android:anyDensity="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:resizeableActivity="true"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:allowBackup="true"
+            android:supportsRtl="true"
+            android:label="TCET"
+            android:screenOrientation="portrait"
+
+            />
+        <activity
+            android:name=".Creditspage"
+            android:allowBackup="true"
+            android:supportsRtl="true"
+            android:label="Credits"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Cmpntt"
+            android:label="CMPN"
+            android:supportsRtl="true"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Ittt"
+            android:label="IT"
+            android:supportsRtl="true"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Extctt"
+            android:label="EXTC"
+            android:supportsRtl="true"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Etrxtt"
+            android:label="ETRX"
+            android:supportsRtl="true"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Mechtt"
+            android:label="MECH"
+            android:supportsRtl="true"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Civiltt"
+            android:label="CIVIL"
+            android:supportsRtl="true"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Academics"
+            android:label="Academics"
+            android:supportsRtl="true"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Webview"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Departments"
+            android:label="Departments"
+            android:supportsRtl="true"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Facilities"
+            android:label="Facilities"
+            android:supportsRtl="true"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Events"
+            android:label="Events"
+            android:supportsRtl="true"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".PointerCalculator"
+            android:label="Pointer Predictor"
+            android:supportsRtl="true"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".FinalPointer"
+            android:label="Pointer Predictor"
+            android:supportsRtl="true"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".CmpnDept"
+            android:label="CMPN"
+            android:supportsRtl="true"
+            android:screenOrientation="portrait"
+            />
+
+    </application>
+
+
+</manifest>
