@@ -152,10 +152,10 @@ public class MainActivity extends AppCompatActivity
             Intent x = new Intent(getApplicationContext(), Events.class);
             startActivity(x);
 
-//        } else if (id == R.id.nav_pointer) {
-//
-//            Intent x = new Intent(getApplicationContext(), PointerCalculator.class);
-//            startActivity(x);
+        } else if (id == R.id.nav_pointer) {
+
+            Intent x = new Intent(getApplicationContext(), PointerCalculator.class);
+            startActivity(x);
 
         } else if (id == R.id.nav_share) {
 

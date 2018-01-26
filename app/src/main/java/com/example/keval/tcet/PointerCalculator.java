@@ -85,8 +85,6 @@ public class PointerCalculator extends AppCompatActivity {
         int theory_credits[]={4,4,4,4,4,3};//will be retirving from database afterwards
         int prac_credits[]={1,1,1,1,0,1};//will be retirving from database afterwards
 
-        Log.i("BBBBBBBBBBBBB", t1.getText().toString());
-
         for(int i=0;i<theory.length;i++)
         {
             int sub_credit=getCredits(theory[i],theory_total[i]);
